@@ -1,0 +1,33 @@
+{
+  "itzy" :
+  [{
+    "Nama" : "Hwang Yeji",
+    "Posisi" : "Leader",
+    "Negara" : "Korea",
+    "Gambar" : "yeji.jpg"
+  },
+    {
+      "Nama" : "Lee Chae-ryeong",
+      "Posisi" : "Rapper",
+      "Negara" : "Korea",
+      "Gambar" : "chae.jpg"
+    },
+    {
+      "Nama" : "Choi Ji-su",
+      "Posisi" : "Main Dancer",
+      "Negara" : "Korea",
+      "Gambar" : "lia.jpg"
+    },
+    {
+      "Nama" : "Shin Yuna",
+      "Posisi" : "Maknae",
+      "Negara" : "Korea",
+      "Gambar" : "yuna.jpg"
+    },
+    {
+      "Nama" : "Shin Ryujin",
+      "Posisi" : "Main Dancer",
+      "Negara" : "Korea",
+      "Gambar" : "ryu.jpg"
+    }]
+}

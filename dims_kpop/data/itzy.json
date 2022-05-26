@@ -3,31 +3,31 @@
   [{
     "Nama" : "Hwang Yeji",
     "Posisi" : "Leader",
-    "Negara" : "Korea",
+    "Negara" : "South Korea 🇰🇷",
     "Gambar" : "yeji.jpg"
   },
     {
       "Nama" : "Lee Chae-ryeong",
       "Posisi" : "Rapper",
-      "Negara" : "Korea",
+      "Negara" : "South Korea 🇰🇷",
       "Gambar" : "chae.jpg"
     },
     {
       "Nama" : "Choi Ji-su",
       "Posisi" : "Main Dancer",
-      "Negara" : "Korea",
+      "Negara" : "South Korea 🇰🇷",
       "Gambar" : "lia.jpg"
     },
     {
       "Nama" : "Shin Yuna",
       "Posisi" : "Maknae",
-      "Negara" : "Korea",
+      "Negara" : "South Korea 🇰🇷",
       "Gambar" : "yuna.jpg"
     },
     {
       "Nama" : "Shin Ryujin",
       "Posisi" : "Main Dancer",
-      "Negara" : "Korea",
+      "Negara" : "South Korea 🇰🇷",
       "Gambar" : "ryu.jpg"
     }]
 }

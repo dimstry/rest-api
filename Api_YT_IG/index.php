@@ -1,3 +1,21 @@
+<?php 
+  $ch=curl_init();
+  curl_setopt($ch, CURLOPT_URL,'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCzgxx_DM2Dcb9Y1spb9mUJA&key=AIzaSyCrbQQ-XkhDWjiOmcSD7KlyCVS6ZaFQRI8');
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  $response = curl_exec($ch);
+  $result = json_decode($response, true);
+  var_dump($result);
+  if(curl_exec($ch) === false)
+  {
+      echo "Curl error: " . curl_error($ch);
+  }
+  else
+  {
+      echo "Operation completed without any errors";
+  }
+  curl_close($ch);
+  ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +26,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 
-  <title>DimsMovies</title>
+  <title>Dims</title>
 </head>
 <body>
   <h1 class="text-center">Hello Word</h1>
@@ -20,7 +38,33 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-md-6">
-        
+        <div class="row">
+          <div class="col-md-4">
+            <img src="..." alt="" width="100px" class="rounded-circle thumbnail">
+          </div>
+          <div class="col-md-8">
+            <h6>Twice</h6>
+            <p>7 juta subscribe</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vPwaXytZcgI?rel=0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="..." alt="" width="100px" class="rounded-circle thumbnail">
+          </div>
+          <div class="col-md-8">
+            <h6>Twice</h6>
+            <p>7 juta Follower</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
